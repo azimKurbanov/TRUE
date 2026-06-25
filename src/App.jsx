@@ -1,8 +1,11 @@
 import React from 'react'
+import Sherzod from './components/Sherzod'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Sherzod />
+    </div>
   )
 }
 
