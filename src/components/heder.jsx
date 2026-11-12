@@ -134,7 +134,7 @@ export default function Heder() {
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-slate-950/40" />
 
         <div className="relative z-10 mx-auto max-w-3xl">
-          <span className="inline-block rounded-full border border-accent/40 bg-accent/10 px-4 py-1 text-[11px] font-bold uppercase tracking-wider text-accent backdrop-blur-sm">
+          <span className="inline-block rounded-full border border-accent/40 bg-accent/10 px-4 py-1 text-[11px] font-bold uppercase tracking-wider text-accent backdrop-blur-xs">
             ★ Мировой лидер с 1982 года
           </span>
           <h1 className="mt-6 text-3xl font-extrabold uppercase tracking-tight sm:text-5xl">
@@ -147,13 +147,13 @@ export default function Heder() {
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <a
               href="#products"
-              className="rounded bg-brand px-6 py-3 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-brand/30 transition hover:bg-brand/90 hover:shadow-brand/50"
+              className="rounded-sm bg-brand px-6 py-3 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-brand/30 transition hover:bg-brand/90 hover:shadow-brand/50"
             >
               Каталог тренажеров
             </a>
             <a
               href="#showroom"
-              className="rounded border border-white/20 bg-white/10 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-sm transition hover:bg-white/20"
+              className="rounded-sm border border-white/20 bg-white/10 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-xs transition hover:bg-white/20"
             >
               Наш Шоурум
             </a>
@@ -167,7 +167,7 @@ export default function Heder() {
           {advantagesList.map((it) => (
             <article
               key={it.t}
-              className="group flex flex-col overflow-hidden rounded-lg border border-slate-100 bg-white p-3 text-center shadow-sm transition hover:shadow-md"
+              className="group flex flex-col overflow-hidden rounded-lg border border-slate-100 bg-white p-3 text-center shadow-xs transition hover:shadow-md"
             >
               <div className="overflow-hidden rounded-md">
                 <Img
@@ -215,7 +215,7 @@ export default function Heder() {
           {productsList.map((p) => (
             <article
               key={p.n}
-              className="group flex flex-col overflow-hidden rounded-xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+              className="group flex flex-col overflow-hidden rounded-xl bg-white shadow-xs transition hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="relative overflow-hidden">
                 <Img
@@ -223,7 +223,7 @@ export default function Heder() {
                   alt={p.n}
                   className="h-48 w-full transition duration-500 group-hover:scale-105"
                 />
-                <span className="absolute right-3 top-3 rounded-full bg-brand/90 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white backdrop-blur-sm">
+                <span className="absolute right-3 top-3 rounded-full bg-brand/90 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white backdrop-blur-xs">
                   {p.badge}
                 </span>
               </div>
@@ -234,7 +234,7 @@ export default function Heder() {
                   <span className="text-[11px] font-semibold text-brand">Гарантия 5 лет</span>
                   <a
                     href="#showroom"
-                    className="rounded bg-brand px-3 py-1.5 text-[11px] font-bold uppercase text-white transition hover:bg-brand/90"
+                    className="rounded-sm bg-brand px-3 py-1.5 text-[11px] font-bold uppercase text-white transition hover:bg-brand/90"
                   >
                     Подробнее
                   </a>
@@ -290,7 +290,7 @@ export default function Heder() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
-                <span className="rounded bg-brand px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">
+                <span className="rounded-sm bg-brand px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">
                   Флагманский шоурум в Ташкенте
                 </span>
                 <h3 className="mt-2 text-xl font-bold uppercase sm:text-2xl">
@@ -363,7 +363,7 @@ export default function Heder() {
                   href="https://t.me"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-xs font-bold uppercase text-slate-700 shadow-sm transition hover:bg-slate-50"
+                  className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-xs font-bold uppercase text-slate-700 shadow-xs transition hover:bg-slate-50"
                 >
                   <span>Написать в Telegram</span>
                 </a>

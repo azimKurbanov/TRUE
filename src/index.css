@@ -1,5 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+/* Asadning ranglari va shrifti (brand, ink, accent, Montserrat) — tailwind.config.js dan */
+@config "../tailwind.config.js";
+
+html { scroll-behavior: smooth; }
 
 body { @apply font-sans text-ink bg-white antialiased; }
