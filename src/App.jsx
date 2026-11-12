@@ -1,9 +1,9 @@
-import Header from './components/Header'
+import Heder from './components/heder'
 
 export default function App() {
   return (
     <main className="bg-white">
-      <Header />
+      <Heder />
     </main>
   )
 }
